@@ -61,7 +61,7 @@ void ResultWindow::showResult(int resultType)
 
     if (resultType == 0) {
         typeName = "Сангвиник";
-        imagePath = ":/new/prefix1/sang.jpeg";
+        imagePath = ":/images/sanguine.png";
 
         description =
             "Ты — сангвиник: человек-солнце, который заряжает окружающих энергией "
@@ -76,7 +76,7 @@ void ResultWindow::showResult(int resultType)
     }
     else if (resultType == 1) {
         typeName = "Холерик";
-        imagePath = ":/new/prefix1/holer.jpeg";
+        imagePath = ":/images/choleric.png";
 
         description =
             "Ты — холерик: страстный, целеустремлённый и вспыльчивый лидер по натуре.\n\n"
@@ -89,7 +89,7 @@ void ResultWindow::showResult(int resultType)
     }
     else if (resultType == 2) {
         typeName = "Флегматик";
-        imagePath = ":/new/prefix1/fleg.jpeg";
+        imagePath = ":/images/phlegmatic.png";
 
         description =
             "Ты — флегматик: спокойный, уравновешенный и надёжный человек.\n\n"
@@ -103,7 +103,7 @@ void ResultWindow::showResult(int resultType)
     }
     else {
         typeName = "Меланхолик";
-        imagePath = ":/new/prefix1/melan.jpeg";
+        imagePath = ":/images/melancholic.png";
 
         description =
             "Ты — меланхолик: чувствительный, вдумчивый и творческий человек.\n\n"
