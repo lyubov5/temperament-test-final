@@ -17,7 +17,7 @@ add_executable(TemperamentTest
     resultwindow.cpp
     resultwindow.h
     photo.qrc
-    images.qrc
+    resourses.qrc
 )
 
 target_link_libraries(TemperamentTest PRIVATE Qt6::Widgets)
