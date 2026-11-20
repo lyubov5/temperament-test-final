@@ -61,7 +61,7 @@ void ResultWindow::showResult(int resultType)
 
     if (resultType == 0) {
         typeName = "Сангвиник";
-        imagePath = ":/images/sanguine.png";
+        imagePath = ":/new/prefix1/sang.jpeg";
 
         description =
             "Ты — сангвиник: человек-солнце, который заряжает окружающих энергией "
@@ -76,7 +76,7 @@ void ResultWindow::showResult(int resultType)
     }
     else if (resultType == 1) {
         typeName = "Холерик";
-        imagePath = ":/images/choleric.png";
+        imagePath = ":/new/prefix1/holer.jpeg";
 
         description =
             "Ты — холерик: страстный, целеустремлённый и вспыльчивый лидер по натуре.\n\n"
@@ -89,7 +89,7 @@ void ResultWindow::showResult(int resultType)
     }
     else if (resultType == 2) {
         typeName = "Флегматик";
-        imagePath = ":/images/phlegmatic.png";
+        imagePath = ":/new/prefix1/fleg.jpeg";
 
         description =
             "Ты — флегматик: спокойный, уравновешенный и надёжный человек.\n\n"
@@ -103,9 +103,8 @@ void ResultWindow::showResult(int resultType)
     }
     else {
         typeName = "Меланхолик";
-        imagePath = ":/images/melancholic.png";
-
-        description =
+        imagePath = ":/new/prefix1/melan.jpeg";
+description =
             "Ты — меланхолик: чувствительный, вдумчивый и творческий человек.\n\n"
             "Тебе подойдут привязчивые и тихие питомцы: сфинкс или рэгдолл, "
             "маленькая собака, кролик или хомяк.\n\n"
