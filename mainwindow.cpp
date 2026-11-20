@@ -10,7 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
     : QWidget(parent)
 {
     setWindowTitle("Тест на определение темперамента");
-    setWindowIcon(QIcon(":/new/prefix1/photo.jpg"));
+    setWindowIcon(QIcon(":/new/prefix1/photo.jpg")); // <-- Проверьте имя!
     resize(600, 400);
 
     titleLabel = new QLabel("Тест на определение темперамента");
