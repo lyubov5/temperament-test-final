@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
+
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
 
 add_executable(TemperamentTest
@@ -16,6 +17,7 @@ add_executable(TemperamentTest
     resultwindow.cpp
     resultwindow.h
     photo.qrc
+    images.qrc
 )
 
 target_link_libraries(TemperamentTest PRIVATE Qt6::Widgets)
