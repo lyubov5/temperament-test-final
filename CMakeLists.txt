@@ -21,3 +21,4 @@ add_executable(TemperamentTest
 )
 
 target_link_libraries(TemperamentTest PRIVATE Qt6::Widgets)
+

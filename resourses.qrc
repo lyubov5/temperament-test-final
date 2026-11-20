@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>holer.jpeg</file>
+        <file>sang.jpeg</file>
+        <file>melan.jpeg</file>
+        <file>fleg.jpeg</file>
+    </qresource>
+</RCC>
